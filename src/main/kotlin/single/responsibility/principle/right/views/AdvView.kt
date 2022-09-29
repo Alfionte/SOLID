@@ -1,6 +1,6 @@
-package single.responsibility.principle.single.responsibility.views
+package single.responsibility.principle.right.views
 
-import single.responsibility.principle.single.responsibility.Adv
+import single.responsibility.principle.right.Adv
 
 interface AdvView {
     fun showAdv()

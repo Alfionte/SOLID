@@ -1,4 +1,4 @@
-package single.responsibility.principle.single.responsibility
+package single.responsibility.principle.right
 
 interface Adv {
     val advString: String

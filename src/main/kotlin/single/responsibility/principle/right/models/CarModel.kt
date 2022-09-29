@@ -1,4 +1,4 @@
-package single.responsibility.principle.single.responsibility.models
+package single.responsibility.principle.right.models
 
 data class CarModel(
     var model: String,

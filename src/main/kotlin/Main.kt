@@ -1,5 +1,12 @@
-import single.responsibility.principle.SingleResponsibilityPrincipleUseCase
+import open.close.principle.right.OpenClosePrincipleRightUseCase
+import open.close.principle.wrong.OpenClosePrincipleWrongUseCase
+import single.responsibility.principle.wrong.SingleResponsibilityPrincipleWrongUseCase
+import single.responsibility.principle.right.SingleResponsibilityPrincipleRightUseCase
 
 fun main() {
-    SingleResponsibilityPrincipleUseCase.runExample()
+    SingleResponsibilityPrincipleWrongUseCase.runExample()
+    SingleResponsibilityPrincipleRightUseCase.runExample()
+
+    OpenClosePrincipleWrongUseCase.runExample()
+    OpenClosePrincipleRightUseCase.runExample()
 }

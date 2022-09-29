@@ -1,6 +1,6 @@
-package single.responsibility.principle.single.responsibility
+package single.responsibility.principle.right
 
-import single.responsibility.principle.single.responsibility.models.CarModel
+import single.responsibility.principle.right.models.CarModel
 
 interface PriceCalculator {
     fun calculatePrice(): Int

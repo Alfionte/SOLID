@@ -1,4 +1,4 @@
-package single.responsibility.principle.multiple.responsibility
+package single.responsibility.principle.wrong
 
 data class Car(
     var model: String,
