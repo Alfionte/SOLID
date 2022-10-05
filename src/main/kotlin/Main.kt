@@ -1,3 +1,4 @@
+import liscov.substitution.principle.LiscovPrincipleWrongUseCase
 import open.close.principle.right.OpenClosePrincipleRightUseCase
 import open.close.principle.wrong.OpenClosePrincipleWrongUseCase
 import single.responsibility.principle.wrong.SingleResponsibilityPrincipleWrongUseCase
@@ -9,4 +10,6 @@ fun main() {
 
     OpenClosePrincipleWrongUseCase.runExample()
     OpenClosePrincipleRightUseCase.runExample()
+
+    LiscovPrincipleWrongUseCase.runExample()
 }
