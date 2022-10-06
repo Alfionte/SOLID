@@ -1,3 +1,4 @@
+import `interface`.segregation.principle.InterfaceSegregationWrongUseCase
 import liscov.substitution.principle.LiscovPrincipleWrongUseCase
 import open.close.principle.right.OpenClosePrincipleRightUseCase
 import open.close.principle.wrong.OpenClosePrincipleWrongUseCase
@@ -12,4 +13,6 @@ fun main() {
     OpenClosePrincipleRightUseCase.runExample()
 
     LiscovPrincipleWrongUseCase.runExample()
+
+    InterfaceSegregationWrongUseCase.runExample()
 }
