@@ -1,3 +1,5 @@
+import dependency.inversion.principle.right.DependencyInversionPrincipleRightUseCase
+import dependency.inversion.principle.wrong.DependencyInversionPrincipleWrongUseCase
 import `interface`.segregation.principle.InterfaceSegregationWrongUseCase
 import liscov.substitution.principle.LiscovPrincipleWrongUseCase
 import open.close.principle.right.OpenClosePrincipleRightUseCase
@@ -15,4 +17,7 @@ fun main() {
     LiscovPrincipleWrongUseCase.runExample()
 
     InterfaceSegregationWrongUseCase.runExample()
+
+    DependencyInversionPrincipleWrongUseCase.runExample()
+    DependencyInversionPrincipleRightUseCase.runExample()
 }
